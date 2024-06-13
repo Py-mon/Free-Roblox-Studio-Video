@@ -14,16 +14,16 @@ This repository enables anyone to create **unlimited** amount of videos for **FR
 ```
 
 2. Copy [`Videos.luau`](https://github.com/Py-mon/Free-Roblox-Studio-Video/blob/main/Videos.luau) and paste it into the `Videos` module script.
-3. Get your desired video into a folder with all the frames (make all the size of the frames less than 1024x1024)
-4. Install **LUASprites**
+3. Install **LUASprites**
 ```
 pip install LUASprites
 ```
 
 ## Add a Video
-1. Run [`spritesheets.py`](https://github.com/Py-mon/Free-Roblox-Studio-Video/blob/main/spritesheet.py) and follow the steps. Run again if you messed up.
-2. Import the images in `[Your folder of video frames]/output0/[the name you entered]` to your Roblox Studio experience.
-3. Take the newly created file and copy it into a **module script** inside `Videos` in Roblox Studio.
+1. Get your desired video into a folder with all the frames (make all the size of the frames less than 1024x1024)
+2. Run [`spritesheets.py`](https://github.com/Py-mon/Free-Roblox-Studio-Video/blob/main/spritesheet.py) and follow the steps. Run again if you messed up.
+3. Import the images in `[Your folder of video frames]/output0/[the name you entered]` to your Roblox Studio experience.
+4. Take the newly created file and copy it into a **module script** inside `Videos` in Roblox Studio.
 
 ## Playing a Video
 
