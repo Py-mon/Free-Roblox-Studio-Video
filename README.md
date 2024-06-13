@@ -14,7 +14,7 @@ This repository enables anyone to create **unlimited** amount of videos for **FR
 ```
 
 2. Copy [`Videos.luau`](https://github.com/Py-mon/Free-Roblox-Studio-Video/blob/main/Videos.luau) and paste it into the `Videos` module script.
-3. Get your desired video into a folder with all the frames (make all the frames 128x128, 256x256, 512x512, or 1024x1024)
+3. Get your desired video into a folder with all the frames (make all the size of the frames less than 1024x1024)
 4. Install **LUASprites**
 ```
 pip install LUASprites
