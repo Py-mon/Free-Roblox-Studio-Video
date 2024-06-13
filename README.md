@@ -2,7 +2,7 @@ Don't want to pay **1000 Robux** per video? Want to upload more than **3 Videos 
 
 This repository enables anyone to create **unlimited** amount of videos for **FREE**!
 
-## Usage
+## Setup
 
 1. Make the following hierarchy in **Roblox Studio**:
     1. Make a folder in `Replicated Storage` called `Modules`
