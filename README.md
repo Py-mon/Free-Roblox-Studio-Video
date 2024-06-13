@@ -23,7 +23,7 @@ pip install LUASprites
 8. Import the images in `[Your folder of video frames]/output0/[the name you entered]` to your Roblox Studio experience.
 9. Take the newly created file and copy it into a **module script** inside `Videos` in Roblox Studio.
 
-## Playing A Video
+## Playing a Video
 
 ```lua
 local Modules = game:GetService("ReplicatedStorage").Modules
