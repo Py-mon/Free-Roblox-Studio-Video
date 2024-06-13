@@ -20,7 +20,8 @@ This repository enables anyone to create **unlimited** amount of videos for **FR
 pip install LUASprites
 ```
 6. Run [`spritesheets.py`](https://github.com/Py-mon/Free-Roblox-Studio-Video/blob/main/spritesheet.py) and follow the steps. Run again if you messed up.
-7. Take the newly created file and copy it into a **module script** inside `Videos` in Roblox Studio.
+8. Import the images in `[your entered folder]/output0/[the name you entered]` to your Roblox Studio experience.
+9. Take the newly created file and copy it into a **module script** inside `Videos` in Roblox Studio.
 
 ## Playing A Video
 
