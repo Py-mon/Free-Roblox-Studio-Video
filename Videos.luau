@@ -6,7 +6,8 @@ function Video.new(size)
 
 	video.frames = {}	
 	video.size = size
-	
+	video.isPaused = false
+
 	return video
 end
 
@@ -27,6 +28,10 @@ function Video.play(video, fps, surface)
 	
 	task.spawn(function()
 		for i=1,frames do
+      while video.isPaused do
+         task.wait()
+      end
+
 			local frame = video.frames[i]
 			if frame.sheet ~= surface.Image then
 				surface.Image = frame.sheet
@@ -37,6 +42,7 @@ function Video.play(video, fps, surface)
 		end
 	end)
 end
+
 
 
 return Video
